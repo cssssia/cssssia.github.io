@@ -9,9 +9,6 @@ function Header(){
         <div>
             <AppBar position = "static">
                 <Toolbar className = "header">
-                    {/* <IconButton edge="start" color="inherit">
-                        <MenuIcon />
-                    </IconButton> */}
                     <Button color="inherit" className = "button">home</Button>
                     <Button color="inherit" className = "button">resume</Button>
                     <Button color="inherit" className = "button">projects</Button>
