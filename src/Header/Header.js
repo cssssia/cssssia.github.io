@@ -1,19 +1,21 @@
 import "./Header.css";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
 
 function Header(){
 
     return(
         <div>
-            <AppBar position = "static">
-                <Toolbar className = "header">
-                    <Button color="inherit" className = "button">home</Button>
-                    <Button color="inherit" className = "button">resume</Button>
-                    <Button color="inherit" className = "button">projects</Button>
-                </Toolbar>
-            </AppBar>
+            <header className = "header">
+                <Link to='/'>
+                	<a>home</a>
+                </Link>
+                <Link to='/resume'>
+                  <a>resume</a>
+                </Link>
+                <Link to='/projects'>
+                  <a>projects</a>
+                </Link>
+            </header>
         </div>
     );
 

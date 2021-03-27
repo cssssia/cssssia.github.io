@@ -1,15 +1,19 @@
 import "./HomePage.css";
-import Header from "../Header/Header";
+import it from "../Photos/it.jpg";
 
-function HomePage(){
-
-    return(
-        <div>
-            <Header />
-            <h1 class = "body">Hey! My name is Cássia.</h1>
-        </div>
-    ); 
-
+function HomePage() {
+  return (
+    <div>
+      <div className="body">
+        <h1>Hey! My name is Cássia.</h1>
+        <h2>
+          I am a system analysis and development student, passionate about the
+          geek enviroment and learning new things.
+        </h2>
+        <img src={it} alt="it" />
+      </div>
+    </div>
+  );
 }
 
 export default HomePage;

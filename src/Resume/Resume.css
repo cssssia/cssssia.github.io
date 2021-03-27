@@ -1,0 +1,80 @@
+h1{
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2{
+  font-size: 20px;
+  color:teal;
+  margin-bottom: 5;
+}
+h3{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+h4{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+small{
+  font-size: 10px;
+}
+p{
+  font-size: 12px;
+  margin-top: 0;
+}
+b{
+  font-size: 12px;
+  font-weight: normal;
+}
+c{
+  font-size: 12px;
+}
+
+.body{
+  font-family: monospace;
+  margin: 20em;
+  margin-top: 2em;
+}
+
+.twoCollums{
+  display: flex;
+}
+
+.name{
+  margin-top: 20px;
+  margin-right: 200px;
+}
+
+.align{
+  align-content: center;
+}
+
+.marginRight{
+  margin-right: 40px;
+}
+
+.marginLeft{
+  margin-left: 50px;
+}
+
+.marginTop{
+  margin-top: 28px
+}
+
+.marginLanguages{
+  margin-right: 195px
+}
+
+.devLanguages{
+  align-content: center;
+  float: left;
+  width: 30%;
+}
+
+.img{
+  width: 100px;
+}
