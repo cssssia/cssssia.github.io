@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2e5b489.css",
+    "main.js": "/static/js/main.54938fa1.js",
+    "static/media/expensesControl-1.png": "/static/media/expensesControl-1.e4abda75191103ae1401.png",
+    "static/media/expensesControl-2.png": "/static/media/expensesControl-2.d95ed93e5a0ee379429d.png",
+    "static/media/expensesControl-3.png": "/static/media/expensesControl-3.9a4800e757101fcb4c44.png",
+    "static/media/joystick.svg": "/static/media/joystick.137dcde9e60d154638cec05970ee3732.svg",
+    "static/media/oldController.svg": "/static/media/oldController.f630e41fc65fbfbd0e28a1c64f315202.svg",
+    "static/media/controller.svg": "/static/media/controller.757ca6754c42233d8791b4e3786d956e.svg",
+    "static/media/code.svg": "/static/media/code.9372d7f7aa2c2203a4d8afa4a43d4d1e.svg",
+    "index.html": "/index.html",
+    "main.c2e5b489.css.map": "/static/css/main.c2e5b489.css.map",
+    "main.54938fa1.js.map": "/static/js/main.54938fa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2e5b489.css",
+    "static/js/main.54938fa1.js"
+  ]
+}
