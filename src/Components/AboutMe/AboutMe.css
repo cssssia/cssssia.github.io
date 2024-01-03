@@ -1,0 +1,41 @@
+.aboutMe
+{
+    font-weight: normal;
+    font-size: 1.35em;
+    margin-top: 10em;
+    margin-left: 20em;
+    margin-right: auto;
+    width: 50em;
+}
+
+.font-weight
+{
+    font-weight: normal;
+}
+
+.container
+{
+    margin: 5em;
+}
+
+.blue
+{
+    color: #006eff;
+}
+
+.alignRight
+{
+    text-align: right;
+}
+
+strong
+{
+    font-weight: bolder;
+}
+
+img
+{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

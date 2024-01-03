@@ -1,0 +1,19 @@
+.contact
+{
+  font-weight: normal;
+  font-size: 1.35em;
+  margin-top: 10em;
+  margin-left: 20em;
+  margin-right: auto;
+  width: 50em;
+}
+
+.link{
+  color: #a2d4ff;
+  text-decoration: none;
+}
+
+.link:hover{
+  font-weight: bold;
+  cursor: pointer;
+}

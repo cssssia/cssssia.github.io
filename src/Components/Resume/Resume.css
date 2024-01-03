@@ -1,0 +1,132 @@
+.body
+{
+  font-family: monospace;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.name
+{
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.information
+{
+  font-size: 1em;
+  margin: 0;
+}
+
+.firstTitle
+{
+  font-size: 1.8em;
+  color:#a2d4ff;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+
+.title
+{
+  font-size: 1.8em;
+  color:#a2d4ff;
+  margin-bottom: 0.5em;
+}
+
+.subtitle
+{
+  font-size: 1.45em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.experience
+{
+  font-size: 1.3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.description
+{
+  font-size: 1em;
+  margin-top: 0;
+}
+
+small
+{
+  font-size: 0.7em;
+}
+
+.align
+{
+  text-align: center;
+}
+
+.marginTop{
+  margin-top: 2em;
+}
+
+.twoCollums{
+  display: flex;
+  justify-content: space-around;
+}
+
+.collumn
+{
+  flex: 50%;
+}
+
+.devLanguages{
+  /* align-content: center;
+  float: left;
+  width: 30%; */  flex: 30%;
+}
+
+.threeCollumns
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.parallelogramDiv
+{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1em;
+}
+
+.parallelogramFull {
+	width: 1.15em;
+	height: 1.15em;
+  margin-top: 0;
+  margin-bottom: 0;
+	transform: skew(-20deg);
+	background: #a2d4ff;
+  margin-left: 1px;
+  border-style: solid;
+  font-weight: normal;
+  border-width: thin;
+}
+
+.parallelogramEmpty {
+	width: 1.15em;
+	height: 1.15em;
+  margin-top: 0;
+  margin-bottom: 0;
+	transform: skew(-20deg);
+	background: #ffffff;
+  margin-left: 1px;
+  border-style: solid;
+  font-weight: normal;
+  border-width: thin;
+}
+
+@media print {
+  div.body {
+    width: 100%;
+  }
+}
