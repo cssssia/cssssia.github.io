@@ -1,6 +1,6 @@
 function Art() {
   return (
-    <div>
+    <div id="content">
       <h1>art</h1>
     </div>
   );

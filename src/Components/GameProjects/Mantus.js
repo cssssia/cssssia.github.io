@@ -1,21 +1,18 @@
 import "./GameProjects.css";
 
-function WardenWarrior() {
+function Mantus() {
   return (
     <div className="gameProjects">
       <div className="ball">
-        <p className="align">2023</p>
+        <p className="align">2024</p>
       </div>
       <div className="vl">
         <div className="projectContainer">
-          <div className="blue">
-            <h2 className="marginBottom">Warden & Warrior</h2>
-          </div>
+          <h2 className="blue">Mantus</h2>
           <p>
-            The Hero is coming to your dungeon, and you haven't prepared
-            anything! Rush to light up the torches, complete puzzles quickly and
-            get the dungeon in order before he sees you or gets to an impossible
-            obstacle!
+            An Host Based Online Multiplayer. Play a match of a customized
+            version of Truco against someone. Bet your eyes and try not to lose
+            your soul.
           </p>
 
           <div className="display">
@@ -24,7 +21,7 @@ function WardenWarrior() {
               <div className="trailerDiv">
                 <iframe
                   className="trailerIframe"
-                  src="https://www.youtube.com/embed/ZxuKxuUviGs?si=_pBn9g0aMHj-Aoz_"
+                  src="https://www.youtube.com/embed/CISFEXS0O3M"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -36,31 +33,33 @@ function WardenWarrior() {
             <div className="displayFlex">
               <h3 className="blue">what i coded</h3>
               <ul>
-                <li>player and box movement in grid</li>
-                <li>player climb into box</li>
-                <li>box pushable by player and hero</li>
-                <li>hole interaction with player, hero and box</li>
-                <li>level completed detection</li>
-                <li>main and pause menu</li>
-                <li>save and select level system</li>
-                <li>and also trailer idealization and edit</li>
+                <li>which card win against which</li>
+                <li>when a player wins, drawn or loses</li>
+                <li>points showing on the table</li>
+                <li>bets management</li>
+                <li>eyes management accordingly to bets and wins</li>
+                <li>lobbies creation, handle</li>
+                <li>online multiplayer structure and sync</li>
+                <li>all menus</li>
+                <li>fmod sounds integretion</li>
               </ul>
               <h3 className="blue">
                 download at{" "}
-                <a href="https://projetos-jogos-feevale.itch.io/warden-warrior">
+                <a href="https://projetos-jogos-feevale.itch.io/mantus">
                   itch.io
                 </a>
               </h3>
             </div>
           </div>
           <p>
-            This game was develop by four students as part of the Project I
+            This game was develop by four students as part of the Project III
             section from Feevale University Digital Games course, NH/RS
           </p>
+          <br />
         </div>
       </div>
     </div>
   );
 }
 
-export default WardenWarrior;
+export default Mantus;

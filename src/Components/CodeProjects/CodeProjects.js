@@ -5,12 +5,14 @@ import MySite from "./MySite.js";
 
 function CodeProjects() {
   return (
-    <div>
-      <h1 className="projectsTitle">my code projects</h1>
-      <div className="marginTop">
-        <MySite />
-        <ExpensesControl />
-        <ProjetoCalculator />
+    <div id="content">
+      <div style={{marginTop: '5em'}}>
+        <h1 className="projectsTitle">my code projects</h1>
+        <div className="marginTop">
+          <MySite />
+          <ExpensesControl />
+          <ProjetoCalculator />
+        </div>
       </div>
     </div>
   );

@@ -8,11 +8,14 @@ function ExpensesControl() {
   return (
     <div>
       {/* <div className="vl"></div> */}
-      <div className="ball"><p className="align">2022</p></div>
       <div className="gameProjects">
+      <div className="ball"><p className="align">2022</p></div>
         <div className="vl">
           <div className="projectContainer">
-            <h2 className="blue">Expenses Control</h2>
+            <div className="blue">
+
+            <h2 className="marginBottom">Expenses Control</h2>
+            </div>
             <p>
               An web application with the objective of categorizing expenses by month and year, where the user can add
               their past and future costs, providing a description for each one, if desired,
@@ -27,7 +30,7 @@ function ExpensesControl() {
                 <img src={expensesControl2} className="image"/>
               {/* </div> */}
             {/* </div> */}
-            <p className="marginBottom">This application was develop by me as part of the Project - Technological Innovations section from Feevale University Analysis and Systems Development course, NH/RS</p>
+            <p>This application was develop by me as part of the Project - Technological Innovations section from Feevale University Analysis and Systems Development course, NH/RS</p>
             <br />
           </div>
 

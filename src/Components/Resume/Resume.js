@@ -18,7 +18,7 @@ function Resume() {
       age = year - 2001;
 
   return (
-    <div className="body">
+    <div id="content" className="body">
 
       <div className="twoCollums">
 

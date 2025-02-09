@@ -1,6 +1,6 @@
 function Portfolio() {
   return (
-    <div>
+    <div id="content">
       <h1>portfolio</h1>
     </div>
   );
