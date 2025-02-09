@@ -75,7 +75,6 @@ function Background() {
   return (
     <div id="background" className="backgroundContainer">
       {console.log(width, height, pageWidth, pageHeight)}
-      {componentDidMount()}
       <div className="column">
         <div id="section" className="section">
         <div style={getImagePosition()}>
