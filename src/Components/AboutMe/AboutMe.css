@@ -1,23 +1,33 @@
 .aboutMe
 {
+    /* position: absolute; */
+    
+    /* margin-top: 5em; */
     font-weight: normal;
     font-size: 1.35em;
-    margin-top: 10em;
     margin-left: 20em;
     margin-right: auto;
     width: 50em;
 }
 
+/* .parent::before
+{
+    clear: both;
+    content: "";
+    display: table;
+} */
+/* 
 .font-weight
 {
+    margin-top: 0;
     font-weight: normal;
-}
+} */
 
 .container
 {
-    margin: 5em;
+    /* margin: 5em; */
 }
-
+/* 
 .blue
 {
     color: #006eff;
@@ -31,11 +41,11 @@
 strong
 {
     font-weight: bolder;
-}
+} */
 
-img
+/* img
 {
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-}
+} */

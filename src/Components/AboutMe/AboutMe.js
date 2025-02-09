@@ -19,12 +19,9 @@ function AboutMe() {
       age = year - 2001;
 
   return (
-    <div>
-      <div className="container">
-
-        <Background />
-
-        <div className="aboutMe">
+    <div className="parent">
+      <div className="aboutMe">
+        <div style={{marginTop: '5em'}}>
           <h1 className="font-weight">hey! my name is <strong className="blue">cássia toscani</strong> and i am <span>{age}</span> years old.</h1>
           <h2 className="font-weight">
             i am a software developer and game student, passionate about the
