@@ -9,9 +9,6 @@ function Contact() {
           <h1 className="font-weight">contact me!</h1>
           <h2 className="font-weight">
             mail me at <span className="blue">cassia.toscani@gmail.com</span>;{" "}
-            <br />
-            call me or send me an whatsapp message at{" "}
-            <span className="blue">+55 51 99279-1532</span>; <br />
             connect with me on{" "}
             <a
               className="link"
