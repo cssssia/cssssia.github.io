@@ -2,10 +2,11 @@
 {
   font-weight: normal;
   font-size: 1.35em;
-  margin-top: 10em;
-  margin-left: 20em;
-  margin-right: auto;
-  width: 50em;
+  margin: auto;
+  width: 65%;
+  padding: 3em;
+  border-radius: 3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .link{

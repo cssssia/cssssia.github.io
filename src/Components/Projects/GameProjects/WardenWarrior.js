@@ -1,12 +1,10 @@
-import "./GameProjects.css";
-
 function WardenWarrior() {
   return (
-    <div className="gameProjects">
-      <div className="ball">
+    <div className="projectName">
+      <div className="circle">
         <p className="align">2023</p>
       </div>
-      <div className="vl">
+      <div className="verticalLine">
         <div className="projectContainer">
           <div className="blue">
             <h2 className="marginBottom">Warden & Warrior</h2>
@@ -53,12 +51,14 @@ function WardenWarrior() {
               </h3>
             </div>
           </div>
-          <p>
+          <p style={{ marginBottom: 0 }}>
             This game was develop by four students as part of the Project I
             section from Feevale University Digital Games course, NH/RS
           </p>
         </div>
+        <br />
       </div>
+      <div className="horizontalLine" />
     </div>
   );
 }

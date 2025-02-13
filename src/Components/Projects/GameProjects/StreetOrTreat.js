@@ -1,14 +1,12 @@
-import "./GameProjects.css";
-
 function StreetOrTreat() {
   return (
     <div>
 
-    <div className="gameProjects">
-      <div className="ball">
+    <div className="projectName">
+      <div className="circle">
         <p className="align">2024</p>
       </div>
-      <div className="vl">
+      <div className="verticalLine">
         <div className="projectContainer">
           <div className="blue">
             <h2 className="marginBottom">Street Or Treat</h2>
@@ -54,12 +52,12 @@ function StreetOrTreat() {
               </h3>
             </div>
           </div>
-          <p>
+          <p style={{ marginBottom: 0 }}>
             This game was develop by four students as part of GameJamPlus 2024,
             an international GameJam
           </p>
-          <br />
         </div>
+        <br />
       </div>
     </div>
     </div>

@@ -1,13 +1,12 @@
 import "./Contact.css";
-import Background from "../../Background/Background.js";
 
 function Contact() {
   return (
-    <div id="content">
-      <div className="container">
+    <div id="content" style={{ paddingBottom: "5em" }}>
+      <div style={{marginTop: '10em'}}>
         <div className="contact">
-          <h1 className="font-weight">contact me!</h1>
-          <h2 className="font-weight">
+          <h1 style={{fontWeight: 'normal'}}>contact me!</h1>
+          <h2 style={{fontWeight: 'normal'}}>
             mail me at <span className="blue">cassia.toscani@gmail.com</span>;{" "}
             connect with me on{" "}
             <a

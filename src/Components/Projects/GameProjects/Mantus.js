@@ -1,14 +1,14 @@
-import "./GameProjects.css";
-
 function Mantus() {
   return (
-    <div className="gameProjects">
-      <div className="ball">
+    <div className="projectName">
+      <div className="circle">
         <p className="align">2024</p>
       </div>
-      <div className="vl">
+      <div className="verticalLine">
         <div className="projectContainer">
-          <h2 className="blue">Mantus</h2>
+          <div className="blue">
+            <h2 className="marginBottom">Mantus</h2>
+          </div>
           <p>
             An Host Based Online Multiplayer. Play a match of a customized
             version of Truco against someone. Bet your eyes and try not to lose
@@ -51,12 +51,12 @@ function Mantus() {
               </h3>
             </div>
           </div>
-          <p>
+          <p style={{ marginBottom: 0 }}>
             This game was develop by four students as part of the Project III
             section from Feevale University Digital Games course, NH/RS
           </p>
-          <br />
         </div>
+        <br />
       </div>
     </div>
   );

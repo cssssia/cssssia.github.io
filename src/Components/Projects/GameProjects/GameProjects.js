@@ -1,14 +1,14 @@
-import "./GameProjects.css"
+import "./../Projects.css"
 import WardenWarrior from "./WardenWarrior.js";
 import OnlyOneMinute from "./OnlyOneMinute.js"
 import StreetOrTreat from "./StreetOrTreat.js"
 import Mantus from "./Mantus.js"
 
-function GameProjects() {
+function projectName() {
   return (
-    <div id="content">
+    <div id="content" style={{ paddingBottom: "5em" }}>
       <div style={{marginTop: '5em'}}>
-        <h1 className="projectsTitle">my game projects</h1>
+        <h1 className="sectionTitle">my game projects</h1>
         <Mantus />
         <StreetOrTreat />
         <OnlyOneMinute />
@@ -18,4 +18,4 @@ function GameProjects() {
   );
 }
 
-export default GameProjects;
+export default projectName;

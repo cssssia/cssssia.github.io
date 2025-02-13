@@ -1,12 +1,10 @@
-import "./GameProjects.css";
-
 function OnlyOneMinute() {
   return (
-    <div className="gameProjects">
-      <div className="ball">
+    <div className="projectName">
+      <div className="circle">
         <p className="align">2024</p>
       </div>
-      <div className="vl">
+      <div className="verticalLine">
         <div className="projectContainer">
           <div className="blue">
             <h2 className="marginBottom">Only One Minute</h2>
@@ -54,13 +52,13 @@ function OnlyOneMinute() {
               </h3>
             </div>
           </div>
-          <p>
+          <p style={{ marginBottom: 0 }}>
             This game was develop by three students as part of FeeJam I, a
             GameJam organized by the academic directory from Feevale University
             Digital Games course, NH/RS
           </p>
-          <br />
         </div>
+        <br />
       </div>
     </div>
   );
