@@ -22,7 +22,7 @@ function ExpensesControl() {
               <div className="trailerDiv">
                 <iframe
                   className="trailerIframe"
-                  src="https://www.youtube.com/embed/CISFEXS0O3M"
+                  src="https://www.youtube.com/embed/O7edaYgTttw?si=pnZYamqblSsixIlJ"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

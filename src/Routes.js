@@ -23,9 +23,9 @@ function Routes() {
               <Route path="/" exact component={HomePage} />
               <Route path="/codeProjects" component={CodeProjects} />
               <Route path="/gameProjects" component={GameProjects} />
-              <Route path="/art" component={Art} />
+              {/* <Route path="/art" component={Art} />
               <Route path="/resume" component={Resume} />
-              <Route path="/portfolio" component={Portfolio} />
+              <Route path="/portfolio" component={Portfolio} /> */}
               <Route path="/contact" component={Contact} />
             </Switch>
           </div>

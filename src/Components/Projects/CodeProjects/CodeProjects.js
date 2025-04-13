@@ -11,7 +11,7 @@ function CodeProjects() {
         <div className="marginTop">
           <MySite />
           <ExpensesControl />
-          <MobileCalculator />
+          {/* <MobileCalculator /> */}
         </div>
       </div>
     </div>
