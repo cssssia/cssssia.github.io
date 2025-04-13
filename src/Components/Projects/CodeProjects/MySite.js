@@ -17,7 +17,7 @@ function MySite() {
           <div className="display">
             <div className="displayFlex">
               <h3 className="blue">demo</h3>
-              <div className="trailerDiv">
+              {/* <div className="trailerDiv"> */}
                 <p>
                   feel free to check it out!
                 </p>
@@ -29,7 +29,7 @@ function MySite() {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
                 ></iframe> */}
-              </div>
+              {/* </div> */}
             </div>
 
             <div className="displayFlex">
