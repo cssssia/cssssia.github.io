@@ -18,14 +18,17 @@ function MySite() {
             <div className="displayFlex">
               <h3 className="blue">demo</h3>
               <div className="trailerDiv">
-                <iframe
+                <p>
+                  feel free to check it out!
+                </p>
+                {/* <iframe
                   className="trailerIframe"
                   src="https://www.youtube.com/embed/CISFEXS0O3M"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
-                ></iframe>
+                ></iframe> */}
               </div>
             </div>
 
