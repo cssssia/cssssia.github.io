@@ -8,7 +8,7 @@ function Header() {
         <Link to="/contact">
           <a>contact</a>
         </Link>
-        <Link to="/portfolio">
+        {/* <Link to="/portfolio">
           <a>portfolio</a>
         </Link>
         <Link to="/resume">
@@ -16,7 +16,7 @@ function Header() {
         </Link>
         <Link to="/art">
           <a>art</a>
-        </Link>
+        </Link> */}
         <Link to="/gameProjects">
           <a>game projects</a>
         </Link>
